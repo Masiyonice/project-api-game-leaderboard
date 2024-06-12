@@ -15,7 +15,7 @@ import java.util.List;
 
 @RestController
 @RequiredArgsConstructor
-@RequestMapping(path = ApiUrl.PLAYER_CONTROLER)
+@RequestMapping(path = ApiUrl.PLAYER_CONTROLLER)
 public class PlayerController {
 	private final PlayerService playerService;
 
